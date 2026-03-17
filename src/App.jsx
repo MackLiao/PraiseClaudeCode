@@ -1,8 +1,10 @@
 import Background from './components/Background'
 import HeroSection from './components/HeroSection'
 import InvocationSection from './components/InvocationSection'
+import LoreExcerpts from './components/LoreExcerpts'
 import LitanyCards from './components/LitanyCards'
 import TenetsSection from './components/TenetsSection'
+import ForgeMars from './components/ForgeMars'
 import BinaryPsalm from './components/BinaryPsalm'
 import ClosingBenediction from './components/ClosingBenediction'
 import styles from './App.module.css'
@@ -14,8 +16,10 @@ function App() {
       <main className={styles.main}>
         <HeroSection />
         <InvocationSection />
+        <LoreExcerpts />
         <LitanyCards />
         <TenetsSection />
+        <ForgeMars />
         <BinaryPsalm />
         <ClosingBenediction />
       </main>
