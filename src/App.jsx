@@ -6,6 +6,7 @@ import LitanyCards from './components/LitanyCards'
 import TenetsSection from './components/TenetsSection'
 import ForgeMars from './components/ForgeMars'
 import BinaryPsalm from './components/BinaryPsalm'
+import InstallSkill from './components/InstallSkill'
 import ClosingBenediction from './components/ClosingBenediction'
 import styles from './App.module.css'
 
@@ -21,6 +22,7 @@ function App() {
         <TenetsSection />
         <ForgeMars />
         <BinaryPsalm />
+        <InstallSkill />
         <ClosingBenediction />
       </main>
       <footer className={styles.footer}>
