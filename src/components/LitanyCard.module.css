@@ -1,0 +1,45 @@
+.card {
+  background: rgba(10, 10, 10, 0.9);
+  border: 2px solid var(--color-gold-dim);
+  padding: 28px;
+  position: relative;
+  transition: box-shadow 0.3s ease;
+  /* Pixel stepped border effect */
+  box-shadow:
+    2px 2px 0 var(--color-gold-dim),
+    4px 4px 0 var(--color-steel),
+    6px 6px 0 rgba(74, 74, 74, 0.4);
+}
+
+.card:hover {
+  border-color: var(--color-gold);
+  box-shadow:
+    2px 2px 0 var(--color-gold),
+    4px 4px 0 var(--color-gold-dim),
+    6px 6px 0 var(--color-steel),
+    0 0 20px rgba(197, 162, 62, 0.2),
+    inset 0 0 20px rgba(197, 162, 62, 0.05);
+}
+
+.cogIcon {
+  font-size: 28px;
+  color: var(--color-gold);
+  margin-bottom: 12px;
+  text-shadow: 0 0 8px rgba(197, 162, 62, 0.5);
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: clamp(8px, 1.5vw, 12px);
+  color: var(--color-gold);
+  margin-bottom: 16px;
+  line-height: 1.8;
+  text-shadow: 0 0 6px rgba(197, 162, 62, 0.3);
+}
+
+.text {
+  font-family: var(--font-body);
+  font-size: clamp(18px, 2vw, 24px);
+  color: var(--color-text);
+  line-height: 1.6;
+}
