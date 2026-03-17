@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import Background from './components/Background'
 import HeroSection from './components/HeroSection'
 import InvocationSection from './components/InvocationSection'
@@ -13,6 +14,7 @@ import styles from './App.module.css'
 function App() {
   return (
     <div className={styles.app}>
+      <Analytics />
       <Background />
       <main className={styles.main}>
         <HeroSection />
